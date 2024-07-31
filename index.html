@@ -180,6 +180,18 @@
                         
                         <div class="photos">
                             <div class="img">
+                                <img src="./assets/img/projetos/p-07.png" alt="Site 7">
+                                <div class="descricao">
+                                    <a href="https://projeto-mauricio-hoteis.vercel.app/" style="text-decoration: none;" target="_blank">
+                                        <p>Visitar projeto</p>
+                                    </a>
+                                </div><!-- Fim descrição-->
+                            </div><!-- Fim img -->
+                        </div><!-- Fim photos -->
+                        
+                        
+                        <div class="photos">
+                            <div class="img">
                                 <img src="./assets/img/projetos/p-01.png" alt="Site 1">
                                 <div class="descricao">
                                     <a href="https://clone-disneyplus-xeem.vercel.app/" style="text-decoration: none;" target="_blank">
@@ -316,6 +328,15 @@
         </footer>    
     </div><!-- Fim webview -->
 </body>
+
+<script>
+    document.querySelector('.btn-portfolio').addEventListener('click', function() {
+        setTimeout(function() {
+            document.querySelector('#inicio').scrollIntoView({ behavior: 'smooth' });
+        }, 2000); // 2000 milissegundos = 2 segundos
+    });
+</script>
+
 <!-- Jquery -->
 <script src="./assets/js/jquery-3.7.1.min.js"></script>
 
